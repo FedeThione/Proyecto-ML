@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+from pathlib import Path
 
 # Cargar el modelo entrenado
 def load_mlp_model(MLP_model):
@@ -62,8 +63,9 @@ def main():
     # Convertir los datos de entrada en un arreglo de numpy
     input_data = np.array([input_data])
 
-    # Cargar el modelo
-    model = load_mlp_model('C:/Users/feder/OneDrive/Escritorio/Proyecto_Machine_Learning/src/notebooks/MLP.model.pkl')
+    mlp_model_ = Path().cwd() / "model" / "MLP.model.pkl"
+    
+    model = load_mlp_model(mlp_model_)
 
     # Botón de predicción
     if st.button('Predecir'):
