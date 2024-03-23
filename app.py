@@ -34,20 +34,6 @@ def main():
 
     # Definir límites personalizados para cada característica
     feature_limits =  {
-        'alcohol_%': (1.2, 11.5),
-        'min_IBU': (0.0, 40.0),
-        'max_IBU 3': (0.0, 70.0),
-        'astringencia': (0.0, 39.0),
-        'cuerpo': (0.0, 101.0),
-        'alcohol_gr/lt': (0.0, 46.0),
-        'amargor': (0.0, 104.0),
-        'dulzor': (0.0, 143.0),
-        'acidez': (0.0, 88.0),
-        'salado': (0.0, 2.0),
-        'frutado': (0.0, 132.0),
-        'lupulo': (0.0, 113.0),
-        'especias': (0.0, 51.0),
-        'malteado': (0.0, 190.0),
         'opinion_aroma': (2.59, 4.75),
         'opinion_apariencia': (3.01, 4.59),
         'opinion_paladar': (2.73, 4.67),
