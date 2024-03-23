@@ -1,5 +1,7 @@
 # README #
 
+![](beer.fondo.jpg)
+
 Este repositorio contiene un análisis y desarrollo de modelos de machine learning para predecir la opinión general sobre diferentes tipos de cerveza. A continuación, se detalla el contenido y los pasos realizados:
 
 ***Contenido del Repositorio:*** 
